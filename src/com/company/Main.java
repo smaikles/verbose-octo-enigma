@@ -6,9 +6,9 @@ public class Main {
         double x1, x2;
         double Discrimenant;
         double a, b, c;
-        a = 43;
-        b = 545;
-        c = 45;
+        a = 33;
+        b = 12;
+        c = 11;
 
         Discrimenant = b * b - 4 * a * c;
 
