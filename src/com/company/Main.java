@@ -9,7 +9,7 @@ public class Main {
         a = 43;
         b = 545;
         c = 45;
-
+        // ветка master
         Discrimenant = b * b - 4 * a * c;
 
         if (Discrimenant == 0) {
