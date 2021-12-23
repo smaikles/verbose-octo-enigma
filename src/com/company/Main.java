@@ -1,16 +1,14 @@
 package com.company;
-
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
         double x1, x2;
         double a, b, c;
         double Discrimenant;
 //  a*x^2 + b*x + c = 0;
-        a = 1;
-        b = 8;
-        c = 1;
+        a = 2;
+        b = 3;
+        c = 4;
 
         Discrimenant = b * b - 4 * a * c;
 
@@ -25,6 +23,7 @@ public class Main {
             System.out.println("x2 = " + x2);
         }
         else {
+            System.out.println(Discrimenant);
             System.out.println("Дискрименант меньше 0");
         }
     }
